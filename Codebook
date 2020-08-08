@@ -1,0 +1,22 @@
+Variables
+
+
+activityLabels     =  the five activity labels (walking, walking upstairs, walking downstairs, sitting, standing) from the original dataset
+CombinedDF         =  a dataframe that combines the test and train variables into one dataset 
+fileURL            =  the URL to the zip file of the original dataset 
+MeanStdData        =  a dataframe of just the mean and standard deviations each measurements 
+selectedColumns    =  the neames of the columns in CombinedDF that were kept to make MeanStdData
+SetNames           =  list of all features (as per original dataset),  
+subdataSetNames    =  list of featues with "mean(" or "std(" in the name (the parenthesis to rule out "meanfreq" variables)
+SubjectTest        =  the subject who performed the activity for test subject sample, range 1-30
+SubjectTrain       =  the subject who performed the activity for train subject sample, range 1-30
+TestLabels         =  test labels
+TestSet            =  test set
+TidyData           =  the final independent tidy data set with the average of each variable for each activity and each subject.
+TotalLabels        =  combination of test and training labets
+TotalSet           =  combination of test and training sets
+TotalSubject       =  combinations of test and training subjects
+TrainingLabels     =  training labels
+TrainingSet        =  training set
+wdpath             =  the path for the directory (used to access the unzipped files)
+
